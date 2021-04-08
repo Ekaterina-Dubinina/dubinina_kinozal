@@ -62,7 +62,7 @@
   }
   
   .panel {
-    margin-bottom: $gap * 2;
+    margin-bottom: ($gap * 2);
   
     border: none;
     background-color: darken($color-light, 5%);
@@ -83,14 +83,16 @@
     }
   }
   
-  .btn-lg,
+  
   .input-lg,
   .input-group-lg > .form-control {
     height: 46px;
   
     font-size: 0.875rem;
   }
-  
+  .btn-lg{
+    font-size: 0.875rem;
+  }
   .thumbnail {
     transition: background-color 0.25s;
   }

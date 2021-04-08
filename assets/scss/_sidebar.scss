@@ -15,6 +15,7 @@
 .user-login {
   position: relative;
 
+
   &__tabs {
     position: absolute;
     top: 0;
@@ -88,7 +89,8 @@ $image-size-with-padding: $image-size + 10px;
     padding-left: 0;
     padding-right: 0;
   }
-  &__list {
+  .list-group{
+    margin-bottom: 0;
   }
 
   &__item {

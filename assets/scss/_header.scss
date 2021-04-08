@@ -18,7 +18,7 @@
 
     @include xs-min {
       font-size: 3.5rem;
-      letter-spacing: 0.33rem;
+      letter-spacing: 0.33em;
       margin-right: -0.27em;
     }
     @include xs {
@@ -32,6 +32,6 @@
     color: $color-light;
     @extend %text-shadow;
     font-size: 1.15rem;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.2em;
   }
 }
