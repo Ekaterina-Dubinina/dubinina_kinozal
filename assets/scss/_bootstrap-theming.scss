@@ -65,7 +65,7 @@
     margin-bottom: ($gap * 2);
   
     border: none;
-    background-color: darken($color-light, 5%);
+    background-color: darken($color-light, 8%);
   
     &-info > .panel-heading {
       letter-spacing: 0.1em;
@@ -91,7 +91,7 @@
     font-size: 0.875rem;
   }
   .btn-lg{
-    font-size: 0.875rem;
+    font-size: 18px;
   }
   .thumbnail {
     transition: background-color 0.25s;
