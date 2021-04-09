@@ -1,0 +1,21 @@
+.film-info{
+
+    font-size: 1.2em;
+    &__wrapper:not(:last-of-type){
+        margin-right: 15px;
+    }
+    &__badge{
+        font-size: 0.8em;
+    }
+    &__well{
+      
+    }
+}
+.well{
+    border-color: #dddddd;
+    background-color: #f1f1f1;
+}
+.film-comment-form__button{
+    float: right;
+    font-size: 18px;
+}
