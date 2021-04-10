@@ -33,6 +33,10 @@ h1 {
     content: "";
     border-bottom: 3px solid rgba(240, 173, 79, 0.7);
   }
+  @media (max-width: 575.8px){
+    margin: 0 0 30px;
+    font-size: 2rem;
+  }   
 }
 
 h3 {

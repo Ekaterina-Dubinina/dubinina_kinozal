@@ -155,12 +155,14 @@ section {
   letter-spacing: 0.2em;
 }
 
-/*.site-search {
-  margin-bottom: $gap * 3;
-}*/
-/*.user-login {
-  margin-bottom: $gap * 4;
-}*/
+.main .site-search {
+  margin-bottom: 45px;
+}
+
+.main .user-login {
+  margin-bottom: 60px;
+}
+
 .new-films-row,
 .top-week-row {
   margin-left: -7.5px;
@@ -270,6 +272,10 @@ section {
   font-size: 0.8em;
 }
 
+.film-info__wrapper {
+  white-space: nowrap;
+}
+
 .well {
   border-color: #dddddd;
   background-color: #f1f1f1;
@@ -278,6 +284,12 @@ section {
 .film-comment-form__button {
   float: right;
   font-size: 18px;
+}
+
+.embed-responsive {
+  border: 1px solid #dddddd;
+  border-bottom: none;
+  border-radius: 4px 4px 0 0;
 }
 
 .left-sidebar .panel:last-child {
@@ -483,6 +495,10 @@ section {
 }
 
 @media (max-width: 575.8px) {
+  h1 {
+    margin: 0 0 30px;
+    font-size: 2rem;
+  }
   h2 {
     margin: 45px 0 30px 45px;
     font-size: 1.75rem;
@@ -490,5 +506,9 @@ section {
   .header-logo__title {
     font-size: 2.5rem;
     letter-spacing: 0.2rem;
+  }
+  .header-logo__title {
+    letter-spacing: 0.2em;
+    font-size: 2.5rem;
   }
 }
