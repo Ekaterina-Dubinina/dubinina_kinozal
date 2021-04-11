@@ -19,11 +19,17 @@
   }
   .film-comment-form__button {
     float: right;
-    font-size: 18px;
+
+    transition: background-color 0.25s;
   }
   .embed-responsive {
     border: 1px solid #dddddd;
     border-bottom: none;
     border-radius: 4px 4px 0 0;
   }
+}
+.film-comment-form__button {
+  float: right;
+
+  transition: background-color 0.25s;
 }
